@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Projet 1",
+        "slug": "projet-1",
+        "illustration": "Blog",
+        "categorie": "CMS"
+    },
+    {
+        "name": "Projet 2",
+        "slug": "projet-2",
+        "illustration": "Dashboard",
+        "categorie": "Design"
+    },
+    {
+        "name": "Projet 3",
+        "slug": "projet-3",
+        "illustration": "Ideation",
+        "categorie": "Design"
+    },
+    {
+        "name": "Projet 4",
+        "slug": "projet-4",
+        "illustration": "Security",
+        "categorie": "From Scrath"
+    },
+    {
+        "name": "Projet 5",
+        "slug": "projet-5",
+        "illustration": "Setting",
+        "categorie": "From Scrath"
+    },
+    {
+        "name": "Projet 6",
+        "slug": "projet-6",
+        "illustration": "Support",
+        "categorie": "From Scrath"
+    }
+]

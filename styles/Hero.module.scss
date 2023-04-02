@@ -1,0 +1,27 @@
+.lottieSection {
+    position: absolute;
+    text-decoration: none;
+    bottom: 15px;
+}
+
+.animatedParagraph p {
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .animatedParagraph p::after {
+    content: '|'; /* ajout d'un curseur clignotant */
+    animation: blink 0.7s infinite;
+    display: inline-block;
+    width: 2px;
+    margin-left: 5px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
