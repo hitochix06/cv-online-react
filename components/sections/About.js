@@ -1,7 +1,7 @@
 import styles from '../../styles/About.module.scss';
 import Titles from '../Titles'
 import Image from 'next/image';
-import Avatar from '@/public/photos/avatar.jpg'
+import Avatar from '@/public/photos/avatar.png'
 function About() {
 
     const aboutAchievements = [
@@ -29,19 +29,20 @@ function About() {
     const aboutSkills = [
         {
             name: "HTML5 / CSS3 / Bootstrap",
-            lvl: 25,
+            lvl: 50,
             bgColor: "rgb(108, 108, 229)"
         },
         {
             name: "Javascript",
-            lvl: 75,
+            lvl: 50,
             bgColor: "rgb(249, 215, 76)"
         },
         {
             name: "React / Next.js",
-            lvl: 50,
+            lvl: 40,
             bgColor: "#FF4C60"
         },
+        
     ]
 
     return (
@@ -49,14 +50,13 @@ function About() {
             <Titles value="A propos"></Titles>
             <div className="row">
                 <div className="col-lg-2 d-none d-lg-block">
-                        <Image src={Avatar} width={156} height={156} className='rounded-circle' />
-                    {/* <img src="https://jthemes.net/themes/wp/bolby/bolby5/wp-content/uploads/sites/5/2021/01/avatar-1-2.svg" className='w-100' alt="" /> */}
+                    <Image src={Avatar} width={156} height={156} className='rounded-circle' />
                 </div>
                 <div className="col-lg-10 ps-md-5 p-4">
                     <div className={`${styles.dialog} row bg-white gx-md-5 rounded-4 shadow p-4 position-relative`}>
                         <div className="col-md-6">
-                            <p className="lh-lg">I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-                            <a target="_blank" href="/CV_Brice-Eliasse.pdf" className='btn btn btn-primary mt-2'>Download CV</a>
+                            <p className="lh-lg">Bonjour ! Je suis Pachara, passionné de graphisme et de conception 3D. Je suis actuellement en formation pour devenir développeur web car c'est un métier qui met en relation créativité et informatique</p>
+                            <a target="_blank" href="/cv-philibert.pdf" className='btn btn btn-primary mt-2'>Télécharger CV</a>
                         </div>
                         <div className="col-md-6">
                             <div className='d-flex flex-column justify-content-between h-100'>
