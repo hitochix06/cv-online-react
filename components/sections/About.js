@@ -76,7 +76,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='row mt-5'>
+            {/* Achievements section  */}
+            {/* <div className='row mt-5'>
                 {aboutAchievements.map((achievement, i) =>
                     <div key={i} className="col-md-3">
                         <div className="d-flex ">
@@ -88,7 +89,7 @@ function About() {
                         </div>
                     </div>
                 )}
-            </div>
+            </div> */}
         </div>
     );
 }

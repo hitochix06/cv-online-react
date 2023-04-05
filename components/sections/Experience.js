@@ -6,27 +6,27 @@ function Experience() {
 
     const experiences = [
         {
-            yearStart: 2019,
+            yearStart: "Octobre 2022",
             yearEnd: null,
-            title: "Academic Degree",
-            organization: "SupdewebDev",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            title: "Enseignant d'informatique aux seniors",
+            organization: "Ville de Nice",
+            description: "Enseigner l'utilisation d'ordinateur, d'un smartphone et informatiques divers",
             type: "study" // study / job
         },
         {
-            yearStart: 2013,
-            yearEnd: 2017,
-            title: "Nice's University",
-            organization: "",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            yearStart: 2022,
+            yearEnd: null,
+            title: "Développeur web",
+            organization: "Mediashool",
+            description: "SUPDEWEB l'école du digital et du développement web, en phase avec les besoins du marché, recrute des passionnés, des étudiants qui le deviendront. La culture web est pour nous une évidence. Les tendances du digital sont portées par nos étudiants, nos experts, nos intervenants, tous ancrés dans des agences, des start-up, des entreprises à la pointe de la transformation digitale",
             type: "study" // study / job
         },
         {
-            yearStart: 2009,
-            yearEnd: 2013,
-            title: "HETIC",
-            organization: "",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            yearStart: 2019,
+            yearEnd: 2019,
+            title: "Hôte Accueil",
+            organization: "Icare",
+            description: "Faire une analyse de la panne" ,
             type: "study" // study / job
         },
         {
@@ -72,12 +72,12 @@ function Experience() {
                 </div>
                 <div className="col-md-6">
                     <div className='rounded-4 ps-4 pe-5 py-4 bg-white shadow mt-4 mt-md-0'>
-                    <div className='border-start border-danger'>
-                        <div className='d-flex flex-column gap-5'>
-                            {experiences.slice(experiences.length / 2, experiences.length).map((experience, i) =>
-                                <Competence key={i} experience={experience} />
-                            )}
-                        </div>
+                        <div className='border-start border-danger'>
+                            <div className='d-flex flex-column gap-5'>
+                                {experiences.slice(experiences.length / 2, experiences.length).map((experience, i) =>
+                                    <Competence key={i} experience={experience} />
+                                )}
+                            </div>
                         </div>
                     </div>
                 </div>

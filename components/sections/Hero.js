@@ -44,7 +44,7 @@ function Hero() {
         <div style={style} className="vh-100 bg-dark d-flex align-items-center justify-content-center">
 
             <div className="text-white text-center">
-                <Image src={Avatar} width={110} height={110} className='rounded-circle' />
+                <Image src={Avatar} width={110} height={110} className='rounded-circle object-fit-cover' />
                 <h1 className="mt-4">Pachara Philibert</h1>
                 <div className={styles.animatedParagraph}>
                     <p>{text}</p>
