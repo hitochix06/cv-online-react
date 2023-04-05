@@ -42,8 +42,15 @@ function About() {
             lvl: 40,
             bgColor: "#FF4C60"
         },
-        
+        {
+            name: "Worpresse",
+            lvl: 50,
+            bgColor: "#4c94ff"
+        },
+
     ]
+
+
 
     return (
         <div id="about" className='container mt-section'>
@@ -55,7 +62,7 @@ function About() {
                 <div className="col-lg-10 ps-md-5 p-4">
                     <div className={`${styles.dialog} row bg-white gx-md-5 rounded-4 shadow p-4 position-relative`}>
                         <div className="col-md-6">
-                            <p className="lh-lg">Bonjour ! Je suis Pachara, passionné de graphisme et de conception 3D. Je suis actuellement en formation pour devenir développeur web car c'est un métier qui met en relation créativité et informatique</p>
+                            <p className="lh-lg">Bonjour ! Je suis Pachara, passionné de graphisme et de conception 3D.<br></br>Je suis actuellement en formation pour devenir développeur web car c'est un métier qui met en relation créativité et informatique</p>
                             <a target="_blank" href="/cv-philibert.pdf" className='btn btn btn-primary mt-2'>Télécharger CV</a>
                         </div>
                         <div className="col-md-6">

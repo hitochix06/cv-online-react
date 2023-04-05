@@ -50,13 +50,13 @@ function Hero() {
                     <p>{text}</p>
                 </div>
                 <div className="d-flex justify-content-center gap-4 fs-4">
-                    <a target="_blank" href="https://www.linkedin.com/in/brice-eliasse/" className="text-white">
+                    <a target="_blank" href="https://www.linkedin.com/in/pachara-philibert/" className="text-white">
                         <i className="bi bi-linkedin"></i>
                     </a>
-                    <a target="_blank" href="https://github.com/BrissouLaChankla" className="text-white">
+                    <a target="_blank" href="https://github.com/hitochix06" className="text-white">
                         <i className="bi bi-github"></i>
                     </a>
-                    <a target="_blank" href="/CV_Brice-Eliasse.pdf" className="text-white">
+                    <a target="_blank" href="/cv-philibert.pdf" className="text-white">
                         <i className="bi bi-file-earmark-person-fill"></i>
                     </a>
 

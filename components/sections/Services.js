@@ -2,8 +2,6 @@ import styles from '../../styles/Services.module.scss';
 import Titles from '../Titles'
 import Image from 'next/image';
 import uxui from '../../public/services/ux-ui.svg'
-import development from '../../public/services/development.svg'
-import photography from '../../public/services/photography.svg'
 import conception from '../../public/services/conception-3d.svg'
 
 function Services() {

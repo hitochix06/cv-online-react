@@ -1,6 +1,6 @@
 import styles from '../../styles/Experience.module.scss';
 import Titles from '../Titles'
-import Image from 'next/image';
+
 
 function Experience() {
 
@@ -10,15 +10,15 @@ function Experience() {
             yearEnd: null,
             title: "Enseignant d'informatique aux seniors",
             organization: "Ville de Nice",
-            description: "Enseigner l'utilisation d'ordinateur, d'un smartphone et informatiques divers",
+            description: "Enseigner l'utilisation d'ordinateur, d'un smartphone et informatiques divers <br> Enseigner l'utilisation d'internet ainsi que de la recherche d'informations en ligne.",
             type: "study" // study / job
         },
         {
             yearStart: 2022,
             yearEnd: null,
             title: "Développeur web",
-            organization: "Mediashool",
-            description: "SUPDEWEB l'école du digital et du développement web, en phase avec les besoins du marché, recrute des passionnés, des étudiants qui le deviendront. La culture web est pour nous une évidence. Les tendances du digital sont portées par nos étudiants, nos experts, nos intervenants, tous ancrés dans des agences, des start-up, des entreprises à la pointe de la transformation digitale",
+            organization: "Mediashool-bar",
+            description: "SUPDEWEB l'école du digital et du développement web, en phase avec les besoins du marché, <br>recrute des passionnés, des étudiants qui le deviendront. <br> La culture web est pour   nous une évidence.<br>Les tendances du digital sont portées par nos étudiants, nos experts, nos intervenants, tous ancrés dans des agences, des start-up, des entreprises à la pointe de la transformation digitale",
             type: "study" // study / job
         },
         {
@@ -26,15 +26,15 @@ function Experience() {
             yearEnd: 2019,
             title: "Hôte Accueil",
             organization: "Icare",
-            description: "Faire une analyse de la panne" ,
+            description: "Faire une analyse de la panne <br> Aider les clients quand ils ont un problème sur le produit",
             type: "study" // study / job
         },
         {
-            yearStart: 2019,
+            yearStart: 2022,
             yearEnd: null,
-            title: "Web Design",
-            organization: "Apple",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            title: "Enseignant d'informatique aux seniors",
+            organization: "Ville de Nice",
+            description: "Enseigner l'utilisation d'ordinateur, d'un smartphone et informatiques divers <br> Enseigner l'utilisation d'internet ainsi que de la recherche d'informations en ligne.",
             type: "job" // study / job
         },
         {
@@ -92,10 +92,9 @@ function Competence({ experience }) {
             {experience.type === "study" ? <span className={styles.studyIcon}>
                 <i className={`${styles.icon} text-danger bi bi-mortarboard`}></i>
             </span> : ""}
-
             <small className='text-muted d-block'>{experience.yearStart} - {experience.yearEnd === null ? "Present" : experience.yearEnd}</small>
             <h3 className='mt-2 fs-5 d-inline-block'>{experience.title}</h3> - <small>{experience.organization}</small>
-            <p className='m-0'>{experience.description}</p>
+            <p className='m-0' dangerouslySetInnerHTML={{ __html: experience.description }}></p>
         </div>
     )
 }

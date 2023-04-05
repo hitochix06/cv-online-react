@@ -3,7 +3,7 @@ import { useForm } from '@formcarry/react';
 
 function Form() {
     const { state, submit } = useForm({
-        id: 'KWUe-0i0Ml'
+        id: '2j19klldQh'
     });
 
     // Success message
@@ -15,13 +15,13 @@ function Form() {
         <form onSubmit={submit}>
             <div className="mb-4">
                 <div className="row">
-                <div className="col-md-6">
+                    <div className="col-md-6">
                         <label htmlFor="name">Nom</label>
                         <input id="name" required className='ps-3 mt-1 form-control' placeholder='' type="name" name="name" />
                     </div>
                     <div className="col-md-6">
                         <label htmlFor="email">Email</label>
-                        <input id="email" required  className='ps-3 mt-1 form-control' placeholder='name@example.com' type="email" name="email" />
+                        <input id="email" required className='ps-3 mt-1 form-control' placeholder='name@example.com' type="email" name="email" />
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@ function Form() {
             </div>
 
 
-                <button className='btn btn-primary d-block mt-4 ms-auto' type="submit">Envoyer </button>
+            <button className='btn btn-primary d-block mt-4 ms-auto' type="submit">Envoyer </button>
         </form>
     );
 }
