@@ -2,30 +2,49 @@ import styles from '../../styles/About.module.scss';
 import Titles from '../Titles'
 import Image from 'next/image';
 import Avatar from '@/public/photos/avatar.png'
-function About() {
+function About(props) {
+    const [progress, setProgress] =  useState(0);
 
-    const aboutAchievements = [
-        {
-            icon: 'bi-hand-thumbs-up',
-            number: 198,
-            name: "Projects completed"
-        },
-        {
-            icon: 'bi-cup-hot',
-            number: 5670,
-            name: "Cup of coffee"
-        },
-        {
-            icon: 'bi-people',
-            number: 427,
-            name: "Satisfied clients"
-        },
-        {
-            icon: 'bi-award',
-            number: 35,
-            name: "Nominees winner"
-        },
-    ]
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setProgress((prevProgress) => {
+                const diff = props.value - prevProgress;
+                const increment = Math.ceil(diff / 10);
+                if (increment === 0) {
+                    clearInterval(interval);
+                }
+                return prevProgress + increment;
+            });
+        }, 100);
+        return () => clearInterval(interval);
+    }, [props.value]);
+
+
+
+    // const aboutAchievements = [
+    //     {
+    //         icon: 'bi-hand-thumbs-up',
+    //         number: 198,
+    //         name: "Projects completed"
+    //     },
+    //     {
+    //         icon: 'bi-cup-hot',
+    //         number: 5670,
+    //         name: "Cup of coffee"
+    //     },
+    //     {
+    //         icon: 'bi-people',
+    //         number: 427,
+    //         name: "Satisfied clients"
+    //     },
+    //     {
+    //         icon: 'bi-award',
+    //         number: 35,
+    //         name: "Nominees winner"
+    //     },
+    // ]
+
     const aboutSkills = [
         {
             name: "HTML5 / CSS3 / Bootstrap",
@@ -50,8 +69,6 @@ function About() {
 
     ]
 
-
-
     return (
         <div id="about" className='container mt-section'>
             <Titles value="A propos"></Titles>
@@ -65,7 +82,14 @@ function About() {
                             <p className="lh-lg">Bonjour ! Je suis Pachara, passionné de graphisme et de conception 3D.<br></br>Je suis actuellement en formation pour devenir développeur web car c'est un métier qui met en relation créativité et informatique</p>
                             <a target="_blank" href="/cv-philibert.pdf" className='btn btn btn-primary mt-2'>Télécharger CV</a>
                         </div>
-                        <div className="col-md-6">
+                        <div className={styles.progress}>
+                            <div
+
+                                className={styles.progressBar}
+                                style={{ width: `${progress}%`, backgroundColor: props.color }}
+                            ></div>
+                        </div>
+                        {/* <div className="col-md-6">
                             <div className='d-flex flex-column justify-content-between h-100'>
                                 {aboutSkills.map((skill, i) =>
                                     <div key={i}>
@@ -79,7 +103,7 @@ function About() {
                                     </div>
                                 )}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

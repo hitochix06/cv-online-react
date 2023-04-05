@@ -25,3 +25,20 @@
     }
   }
   
+
+  .zoom-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .zoom-text h1 {
+    font-size: 3rem;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .zoom-text:hover h1 {
+    transform: scale(1.2);
+  }
