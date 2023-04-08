@@ -47,14 +47,14 @@ function Experience() {
             type: "job" // study / job
         },
         {
-            yearStart: 2013,
-            yearEnd: 2017,
-            title: "Front-End Developer",
-            organization: "Tesla",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            yearStart: "JUIN 2019",
+            yearEnd: "AOUT 2019",
+            title: "Hôte Accueil",
+            organization: "ICARE",
+            description: "Faire une analyse de la panne <br>Aider les clients quand ils ont un problème sur le produit",
             type: "job" // study / job
         },
-   
+
     ]
 
     return (
