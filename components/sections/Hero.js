@@ -17,11 +17,11 @@ const defaultOptions = {
 
 
 function Hero() {
-    const backgroundImg = "url('https://media.discordapp.net/attachments/1008571105990160476/1094165155161575485/hitochix_Overall_the_image_of_a_geek-like_web_developer_in_the__a14b8ef2-7bdb-4b38-82a1-f4fb27af72e8.png?width=662&height=662')";
+    const backgroundImg = "url('https://cdn.discordapp.com/attachments/1008571105990160476/1094168983206379571/hitochix_Dans_lensemble_limage_dun_developpeur_Web_en_milieu_de_e6367d01-c4fe-4352-9cbc-0fff42789b8f.png')";
     const style = {
         backgroundImage: backgroundImg,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        // backgroundPosition: 'center',
         // backgroundBlendMode: 'overlay',
     };
 

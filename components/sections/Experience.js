@@ -25,9 +25,17 @@ function Experience() {
         {
             yearStart: "",
             yearEnd: 2020,
-            title: "Mode83",
+            title: "Développement Java J2EE",
             organization: "Mode83",
-            description: "Les écoles 42 sont des établissements supérieurs d'autoformation non reconnus par l’État,<br> dont l'objectif est de former des développeurs à Paris, Lyon, Mulhouse, Nice, Perpignan, Fremont en Californie, Lausanne en Suisse et Lisbonne au Portugal",
+            description: "HTML, CSS, JavaScript (ES6), jQuery, MySQL et SQL , Bootstrap , Ajax ,JavaSE8",
+            type: "study" // study / job
+        },
+        {
+            yearStart: "",
+            yearEnd: 2019,
+            title: "Développement web et mobile",
+            organization: "Le Bocal Académie",
+            description: "Formation intensive au métier de développeur web et mobile avec les méthodes les plus récentes et populaires",
             type: "study" // study / job
         },
         {
@@ -46,14 +54,7 @@ function Experience() {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
             type: "job" // study / job
         },
-        {
-            yearStart: 2009,
-            yearEnd: 2013,
-            title: "Back-End Developer",
-            organization: "Google",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
-            type: "job" // study / job
-        },
+   
     ]
 
     return (
