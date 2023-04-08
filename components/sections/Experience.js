@@ -5,7 +5,7 @@ import Titles from '../Titles'
 function Experience() {
 
     const experiences = [
-      
+
         {
             yearStart: 2022,
             yearEnd: null,
@@ -15,11 +15,19 @@ function Experience() {
             type: "study" // study / job
         },
         {
-            yearStart: 2019,
-            yearEnd: 2019,
-            title: "Hôte Accueil",
-            organization: "Icare",
-            description: "Faire une analyse de la panne <br> Aider les clients quand ils ont un problème sur le produit",
+            yearStart: "",
+            yearEnd: 2021,
+            title: "Développement informatique",
+            organization: "Ecole 42",
+            description: "Les écoles 42 sont des établissements supérieurs d'autoformation non reconnus par l’État,<br> dont l'objectif est de former des développeurs à Paris, Lyon, Mulhouse, Nice, Perpignan, Fremont en Californie, Lausanne en Suisse et Lisbonne au Portugal",
+            type: "study" // study / job
+        },
+        {
+            yearStart: "",
+            yearEnd: 2020,
+            title: "Mode83",
+            organization: "Mode83",
+            description: "Les écoles 42 sont des établissements supérieurs d'autoformation non reconnus par l’État,<br> dont l'objectif est de former des développeurs à Paris, Lyon, Mulhouse, Nice, Perpignan, Fremont en Californie, Lausanne en Suisse et Lisbonne au Portugal",
             type: "study" // study / job
         },
         {

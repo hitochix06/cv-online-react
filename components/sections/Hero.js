@@ -17,12 +17,12 @@ const defaultOptions = {
 
 
 function Hero() {
-    const backgroundImg = "url('https://academiaraqmya.gov.ma/wp-content/uploads/2021/04/805992_d306_8.jpg')";
+    const backgroundImg = "url('https://media.discordapp.net/attachments/1008571105990160476/1094165155161575485/hitochix_Overall_the_image_of_a_geek-like_web_developer_in_the__a14b8ef2-7bdb-4b38-82a1-f4fb27af72e8.png?width=662&height=662')";
     const style = {
         backgroundImage: backgroundImg,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundBlendMode: 'overlay',
+        // backgroundBlendMode: 'overlay',
     };
 
     const [text, setText] = useState(''); // état local pour stocker le texte animé
@@ -42,7 +42,6 @@ function Hero() {
 
     return (
         <div style={style} className="vh-100 bg-dark d-flex align-items-center justify-content-center">
-
             <div className="text-white text-center">
                 <Image src={Avatar} width={110} height={110} className='rounded-circle object-fit-cover' />
                 <h1 className="mt-4">Pachara Philibert</h1>
