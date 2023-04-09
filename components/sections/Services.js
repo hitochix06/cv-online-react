@@ -3,6 +3,7 @@ import Titles from '../Titles'
 import Image from 'next/image';
 import uxui from '../../public/services/ux-ui.svg'
 import conception from '../../public/services/conception-3d.svg'
+import Card from 'react-animated-3d-card'
 
 function Services() {
 
@@ -31,16 +32,29 @@ function Services() {
     ]
 
     return (
+        
         <div id="skills" className='container mt-section'>
             <Titles value="Compétences" />
             <div className="row">
                 {services.map((service, i) =>
                     <div key={i} className="col-md-4 mt-4 mt-md-0">
-                        <div style={{ backgroundColor: service.bgColor }} className={`rounded-5 shadow text-center px-4 py-5 text-${service.color}`}>
+                        <Card
+                            style={{
+                                backgroundColor: service.bgColor,
+                                color: service.color,
+                                width: '100%',
+                                height: '400px',
+                                padding: '40px',
+                                border: 'none',
+                                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                                cursor: 'pointer'
+                            }}
+                            onClick={() => console.log('Card clicked')}
+                        >
                             <Image src={service.img} alt={service.title} />
                             <h2 className='fs-4 mt-4'>{service.title}</h2>
                             <p className='mt-3 mb-0'>{service.description}</p>
-                        </div>
+                        </Card>
                     </div>
                 )}
             </div>
