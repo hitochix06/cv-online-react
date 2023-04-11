@@ -32,7 +32,7 @@ function Services() {
     ]
 
     return (
-        
+
         <div id="skills" className='container mt-section'>
             <Titles value="Compétences" />
             <div className="row">
@@ -49,7 +49,7 @@ function Services() {
                                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
                                 cursor: 'pointer'
                             }}
-                            onClick={() => console.log('Card clicked')}
+
                         >
                             <Image src={service.img} alt={service.title} />
                             <h2 className='fs-4 mt-4'>{service.title}</h2>
@@ -58,7 +58,7 @@ function Services() {
                     </div>
                 )}
             </div>
-            <p className="text-center mt-5">Vous cherchez votre prochain alternant Développeur Web ? <a href="mailto:exemple@exemple.com">Contactez-moi</a> 👋</p>
+            <p className="text-center mt-5">Vous cherchez votre prochain alternant Développeur Web ? <a href="mailto:pachara.philibert@hotmail.fr">Contactez-moi</a> 👋</p>
         </div>
     )
 }

@@ -17,7 +17,7 @@ const defaultOptions = {
 
 
 function Hero() {
-    const backgroundImg = "url('https://cdn.discordapp.com/attachments/1008571105990160476/1094168983206379571/hitochix_Dans_lensemble_limage_dun_developpeur_Web_en_milieu_de_e6367d01-c4fe-4352-9cbc-0fff42789b8f.png')";
+    const backgroundImg = "url('https://media.discordapp.net/attachments/1008571105990160476/1095430863346466876/hitochix_Hacker_front_of_computer_red_room_ambiance_cybersecuri_224d8dd5-7846-4260-bc04-0c53e33755b3.png?width=2184&height=1248')";
     const style = {
         backgroundImage: backgroundImg,
         backgroundSize: 'cover',
@@ -41,12 +41,15 @@ function Hero() {
 
 
     return (
+
         <div style={style} className="vh-100 bg-dark d-flex align-items-center justify-content-center">
             <div className="text-white text-center">
-                <Image src={Avatar} width={110} height={110} className='rounded-circle object-fit-cover' />
+                {/* <Image src={Avatar} width={110} height={110} className='rounded-circle object-fit-cover' /> */}
                 <h1 className="mt-4">Pachara Philibert</h1>
                 <div className={styles.animatedParagraph}>
-                    <p>{text}</p>
+                    <h5>{text}</h5>
+                    <q>l'imagination est plus importante que le savoir</q><br></br>
+                    <small>Albert Einstein</small>
                 </div>
                 <div className="d-flex justify-content-center gap-4 fs-4">
                     <a target="_blank" href="https://www.linkedin.com/in/pachara-philibert/" className="text-white">
@@ -58,7 +61,6 @@ function Hero() {
                     <a target="_blank" href="/cv-philibert.pdf" className="text-white">
                         <i className="bi bi-file-earmark-person-fill"></i>
                     </a>
-
                 </div>
                 <div className="mt-4">
                     <a href="#contact">
