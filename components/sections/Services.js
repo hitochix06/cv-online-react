@@ -37,7 +37,7 @@ function Services() {
             <Titles value="Compétences" />
             <div className="row">
                 {services.map((service, i) =>
-                    <div key={i} className="col-md-4 mt-4 mt-md-0">
+                    <div key={i} className="col-md-4 mt-4 mt-md-0 text-center">
                         <Card
                             style={{
                                 backgroundColor: service.bgColor,
