@@ -2,8 +2,6 @@ import styles from '../../styles/Hero.module.scss';
 import Lottie from "react-lottie";
 import animationData from "../../public/lotties/8167-simple-scroll-down-icon.json";
 import ThreeDButtons from '../ThreeDButtons';
-import Image from 'next/image';
-import Avatar from '@/public/photos/avatar.png';
 import React, { useState, useEffect } from 'react';
 
 const defaultOptions = {

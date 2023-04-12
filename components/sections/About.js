@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from '../../styles/About.module.scss';
 import Titles from '../Titles';
 import Image from 'next/image';
-import Avatar from '@/public/photos/moi.png';
+import Avatar from '@/public/photos/moi.gif';
 
 function About() {
     const aboutSkills = [
