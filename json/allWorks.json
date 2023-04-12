@@ -44,5 +44,11 @@
     "slug": "https://pphilibert-web.eu/GestionBoulangerie/index.php",
     "illustration": "boulangerie-patisserie.jpg",
     "categorie": "Application Web"
+  },
+  {
+    "name": "Gestion produit boulanger",
+    "slug": "https://pphilibert-web.eu/GestionBoulangerie/index.php",
+    "illustration": "boulangerie-patisserie.jpg",
+    "categorie": "Conception 3D"
   }
 ]
