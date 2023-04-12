@@ -29,14 +29,14 @@ function Works() {
                             layout
                             key={i}
                             className="col-md-4"
-                            transition={{type:"spring", duration:0.2}}
-                            exit={{ scale: 0.3, opacity:0}}
-                            animate={{scale:1, opacity:1}}
-                            initial={{scale: 0  , opacity:0}}
+                            transition={{ type: "spring", duration: 0.2 }}
+                            exit={{ scale: 0.3, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            initial={{ scale: 0, opacity: 0 }}
                         >
                             <div className={`${styles.work} rounded-5 shadow-sm position-relative`} style={{ backgroundImage: `url('/realisations/${work.illustration}.png')` }}>
                                 <div className={`${styles.overlay} rounded-5`}></div>
-                                <Link href={`/realisations/${work.slug}`} className='stretched-link' >
+                                <Link href={`${work.slug}`} target="_blank" className='stretched-link' >
                                     <span className='p-2 rounded-bottom-4'>{work.categorie}</span>
                                     <h3>{work.name}</h3>
                                 </Link>

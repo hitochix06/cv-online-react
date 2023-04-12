@@ -1,38 +1,53 @@
 [
-    {
-        "name": "Association les cles du succes",
-        "slug": "https://www.association-lesclesdusucces.com/",
-        "illustration": "Blog",
-        "categorie": "CMS"
-    },
-    {
-        "name": "Projet 2",
-        "slug": "projet-2",
-        "illustration": "Dashboard",
-        "categorie": "Design"
-    },
-    {
-        "name": "Projet 3",
-        "slug": "projet-3",
-        "illustration": "Ideation",
-        "categorie": "Design"
-    },
-    {
-        "name": "Projet 4",
-        "slug": "projet-4",
-        "illustration": "Security",
-        "categorie": "From Scrath"
-    },
-    {
-        "name": "Projet 5",
-        "slug": "projet-5",
-        "illustration": "Setting",
-        "categorie": "From Scrath"
-    },
-    {
-        "name": "Projet 6",
-        "slug": "projet-6",
-        "illustration": "Support",
-        "categorie": "From Scrath"
-    }
+  {
+    "name": "Association les cles du succes",
+    "slug": "https://www.association-lesclesdusucces.com",
+    "illustration": "logoclesucces",
+    "categorie": "CMS"
+  },
+  {
+    "name": "Matthieu Hourteillan",
+    "slug": "https://www.matthieuhourteillan.fr/?fbclid=IwAR1PM491C5Spj-6K6xG_JllY9rsIOmz_oBBKOlLuV7Wk7ijvLgiPSe0ZygA",
+    "illustration": "cartemathieu",
+    "categorie": "CMS"
+  },
+  {
+    "name": "daedeliboes",
+    "slug": "https://www.daedeliboes.com/",
+    "illustration": "logodavid",
+    "categorie": "CMS"
+  },
+
+
+  {
+    "name": "Projet 2",
+    "slug": "projet-2",
+    "illustration": "Dashboard",
+    "categorie": "Design"
+  },
+  {
+    "name": "Projet 3",
+    "slug": "projet-3",
+    "illustration": "Ideation",
+    "categorie": "Design"
+  },
+  
+  {
+    "name": "Projet 4",
+    "slug": "projet-4",
+    "illustration": "Security",
+    "categorie": "From Scrath"
+  },
+  {
+    "name": "Projet 5",
+    "slug": "projet-5",
+    "illustration": "Setting",
+    "categorie": "From Scrath"
+  },
+  {
+    "name": "Projet 6",
+    "slug": "projet-6",
+    "illustration": "Support",
+    "categorie": "From Scrath"
+  }
 ]
