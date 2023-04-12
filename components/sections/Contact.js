@@ -11,7 +11,7 @@ function Contact() {
                 <div className="col-md-5">
                     <div className={`${styles.bgMap} pe-5 h-100`}>
                         <h3 className='fs-5'>Parlons de ce que vous voulez !</h3>
-                        <p>Vous n'aimez pas les formulaires ? <br /> Envoyez moi un <a href="pachara.philibert@hotmail.fr">e-mail</a> 👋</p>
+                        <p>Vous n'aimez pas les formulaires ? <br /> Envoyez moi un <a href="mailto:pachara.philibert@hotmail.fr">e-mail</a> 👋</p>
                     </div>
                 </div>
                 <div className="col-md-7">
