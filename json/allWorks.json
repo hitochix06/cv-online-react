@@ -2,52 +2,47 @@
   {
     "name": "Association les cles du succes",
     "slug": "https://www.association-lesclesdusucces.com",
-    "illustration": "logoclesucces",
+    "illustration": "logoclesucces.png",
     "categorie": "CMS"
   },
   {
     "name": "Matthieu Hourteillan",
     "slug": "https://www.matthieuhourteillan.fr/?fbclid=IwAR1PM491C5Spj-6K6xG_JllY9rsIOmz_oBBKOlLuV7Wk7ijvLgiPSe0ZygA",
-    "illustration": "cartemathieu",
+    "illustration": "cartemathieu.png",
     "categorie": "CMS"
   },
   {
     "name": "daedeliboes",
     "slug": "https://www.daedeliboes.com/",
-    "illustration": "logodavid",
+    "illustration": "logodavid.png",
     "categorie": "CMS"
   },
 
+  {
+    "name": "jeu de geolocalisation",
+    "slug": "https://hitochix06.github.io/jeuxgeolocalisation.github.io/",
+    "illustration": "imagegeo.jpg",
+    "categorie": "Application Web"
+  },
 
   {
-    "name": "Projet 2",
-    "slug": "projet-2",
-    "illustration": "Dashboard",
-    "categorie": "Design"
+    "name": "Liste de courses",
+    "slug": "https://hitochix06.github.io/JeuxListcourse.github.io/",
+    "illustration": "liste-de-courses.jpg",
+    "categorie": "Application Web"
   },
+
   {
-    "name": "Projet 3",
-    "slug": "projet-3",
-    "illustration": "Ideation",
-    "categorie": "Design"
+    "name": "Gestion de stock boisson",
+    "slug": "https://pphilibert-web.eu/gestion_boisson_php/read.php",
+    "illustration": "boisson.jpg",
+    "categorie": "Application Web"
   },
-  
+
   {
-    "name": "Projet 4",
-    "slug": "projet-4",
-    "illustration": "Security",
-    "categorie": "From Scrath"
-  },
-  {
-    "name": "Projet 5",
-    "slug": "projet-5",
-    "illustration": "Setting",
-    "categorie": "From Scrath"
-  },
-  {
-    "name": "Projet 6",
-    "slug": "projet-6",
-    "illustration": "Support",
-    "categorie": "From Scrath"
+    "name": "Gestion produit boulanger",
+    "slug": "https://pphilibert-web.eu/GestionBoulangerie/index.php",
+    "illustration": "boulangerie-patisserie.jpg",
+    "categorie": "Application Web"
   }
 ]

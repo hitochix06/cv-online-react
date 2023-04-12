@@ -34,7 +34,7 @@ function Works() {
                             animate={{ scale: 1, opacity: 1 }}
                             initial={{ scale: 0, opacity: 0 }}
                         >
-                            <div className={`${styles.work} rounded-5 shadow-sm position-relative`} style={{ backgroundImage: `url('/realisations/${work.illustration}.png')` }}>
+                            <div className={`${styles.work} rounded-5 shadow-sm position-relative`} style={{ backgroundImage: `url('/realisations/${work.illustration}')` }}>
                                 <div className={`${styles.overlay} rounded-5`}></div>
                                 <Link href={`${work.slug}`} target="_blank" className='stretched-link' >
                                     <span className='p-2 rounded-bottom-4'>{work.categorie}</span>
