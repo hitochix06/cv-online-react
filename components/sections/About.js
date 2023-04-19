@@ -12,7 +12,7 @@ function About() {
             bgColor: 'rgb(108, 108, 229)',
         },
         {
-            name: 'Javascript',
+            name: 'JavaScript',
             lvl: 50,
             bgColor: 'rgb(249, 215, 76)',
         },
@@ -22,7 +22,7 @@ function About() {
             bgColor: '#FF4C60',
         },
         {
-            name: 'Worpresse',
+            name: 'WordPress',
             lvl: 50,
             bgColor: '#4c94ff',
         },
@@ -65,7 +65,7 @@ function About() {
                 <div className="col-lg-10 ps-md-5 p-4">
                     <div className={`${styles.dialog} row bg-white gx-md-5 rounded-4 shadow p-4 position-relative`}>
                         <div className="col-md-6">
-                            <p className="lh-lg">Bonjour, je m'appelle Pachara et je suis un passionné de la technologie et du design.<br></br> Je suis en train de me former pour devenir développeur web, car je crois que le futur de l'innovation repose sur la capacité à combiner créativité et technologie.</p>
+                            <p className="lh-lg">Pachara, passionné de technologie et de design, <br></br>suit actuellement une formation pour devenir développeur web. Il est convaincu que l’avenir de l’innovation repose sur la capacité à allier technologie et créativité.</p>
                             <a target="_blank" href="/cv-philibert.pdf" className="btn btn btn-primary mt-2">Télécharger CV</a>
                         </div>
                         <div className="col-md-6">
