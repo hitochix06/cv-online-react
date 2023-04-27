@@ -14,7 +14,7 @@ function Works() {
         <div id="works" className='container mt-section'>
             <Titles value="Dernières créations" />
 
-            <div className="d-flex gap-4 fw-bold">
+            <div className="col-lg-6 d-flex gap-2 fw-bold ">
                 <button className={`btn btn-sm ${(null === activeCategorie) ? "btn-primary" : "btn-outline-primary"}`} onClick={() => setActiveCategorie(null)}>Tous</button>
                 {
                     [...categories].map((categorie, i) =>
@@ -22,13 +22,13 @@ function Works() {
                     )
                 }
             </div>
-            <div className='row gy-4 mt-3'>
+            <div className='row  gy-4 mt-3'>
                 <AnimatePresence>
                     {allWorks.filter(work => work.categorie === activeCategorie || activeCategorie === null).map((work, i) =>
                         <motion.div
                             layout
                             key={i}
-                            className="col-md-4"
+                            className="col-lg-4  mt-4"
                             transition={{ type: "spring", duration: 0.2 }}
                             exit={{ scale: 0.3, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}

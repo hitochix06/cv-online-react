@@ -75,7 +75,7 @@ function About() {
                 <div className="col-lg-10 ps-md-5 p-4">
                     <div className={`${styles.dialog} row bg-white gx-md-5 rounded-4 shadow p-4 position-relative`}>
                         <div className="col-md-6">
-                            <p className="lh-lg">Pachara, passionné de technologie et de design, <br></br>suit actuellement une formation pour devenir développeur web. Il est convaincu que l’avenir de l’innovation repose sur la capacité à allier technologie et créativité.</p>
+                            <p className="lh-lg">Pachara, passionné de technologie et de design, <br></br>suit actuellement une formation pour devenir développeur web et mobile. Il est convaincu que l’avenir de l’innovation repose sur la capacité à allier technologie et créativité.</p>
                             <a target="_blank" href="/cv-philibert.pdf" className="btn btn btn-primary mt-2">Télécharger CV</a>
                         </div>
                         <div className="col-md-6">
