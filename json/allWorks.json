@@ -54,14 +54,14 @@
 
   {
     "name": "Pokémon_Api",
-    "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:ffa15093-8df6-4fa3-b9c5-5f3f4aee39f4?view=dimension",
-    "illustration": "cv3D.png",
+    "slug": "https://pokedex-guide-api.vercel.app/",
+    "illustration": "logo_pokem.jpg",
     "categorie": "Api"
   },
   {
     "name": "Search_jeux_Api",
-    "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:ffa15093-8df6-4fa3-b9c5-5f3f4aee39f4?view=dimension",
-    "illustration": "cv3D.png",
+    "slug": "https://recherche-jeuxvideo-api.vercel.app/",
+    "illustration": "logo_jeuxvideo.jpg",
     "categorie": "Api"
   }
 ]
