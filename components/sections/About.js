@@ -7,7 +7,7 @@ import Avatar from '@/public/photos/moi.gif';
 function About() {
     const aboutSkills = [
         {
-            name: 'HTML5 / CSS3 / Bootstrap',
+            name: 'HTML5 / CSS3 / Bootstrap 5',
             lvl: 50,
             bgColor: 'rgb(108, 108, 229)',
         },
@@ -25,6 +25,16 @@ function About() {
             name: 'WordPress',
             lvl: 50,
             bgColor: '#4c94ff',
+        },
+        {
+            name: 'PHP',
+            lvl: 40,
+            bgColor: '#198754',
+        },
+        {
+            name: 'UX/UI Design',
+            lvl: 60,
+            bgColor: '#1b557d',
         },
     ];
 
@@ -44,7 +54,7 @@ function About() {
         // J'utilise le style inline pour changer la largeur de la barre de progression
         return (
             <div key={index}>
-                <div className="d-flex align-items-center justify-content-between mt-4 mt-md-0">
+                <div className="d-flex align-items-center justify-content-between mt-4 mt-md-1">
                     <strong>{skill.name}</strong>
                     <span>{width}%</span>
                 </div>

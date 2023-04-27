@@ -61,7 +61,7 @@ function Experience() {
         <div id="experiences" className='container mt-section'>
             <Titles value="Expériences" />
             <div className="row mt-5">
-                <div className="col-md-6 ">
+                <div className="col-lg mt-4 ">
                     <div className='rounded-4 ps-4 pe-5 py-4 bg-white shadow'>
                         <div className='border-start border-danger'>
                             <div className='d-flex flex-column gap-5'>
@@ -72,7 +72,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg mt-4">
                     <div className='rounded-4 ps-4 pe-5 py-4 bg-white shadow mt-4 mt-md-0'>
                         <div className='border-start border-danger'>
                             <div className='d-flex flex-column gap-5'>
