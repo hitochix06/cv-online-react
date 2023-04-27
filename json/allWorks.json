@@ -50,5 +50,18 @@
     "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:ffa15093-8df6-4fa3-b9c5-5f3f4aee39f4?view=dimension",
     "illustration": "cv3D.png",
     "categorie": "Conception 3D"
+  },
+
+  {
+    "name": "Pokémon_Api",
+    "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:ffa15093-8df6-4fa3-b9c5-5f3f4aee39f4?view=dimension",
+    "illustration": "cv3D.png",
+    "categorie": "Api"
+  },
+  {
+    "name": "Search_jeux_Api",
+    "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:ffa15093-8df6-4fa3-b9c5-5f3f4aee39f4?view=dimension",
+    "illustration": "cv3D.png",
+    "categorie": "Api"
   }
 ]
