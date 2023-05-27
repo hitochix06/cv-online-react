@@ -38,6 +38,17 @@ function Experience() {
             description: "Formation intensive au métier de développeur web et mobile avec les méthodes les plus récentes et populaires",
             type: "study" // study / job
         },
+
+        {
+            yearStart: "MAI 2023",
+            yearEnd: "JUILLET 2023",
+            title: "Stage Webmaster",
+            organization: "LPG SYSTEMS",
+            description: "- Alimentation du contenu des sites éditoriaux France et internationaux (WordPress) </br>- Actualisation du contenu et des catalogues produits des sites e-commerce B2C/B2B France et internationaux (Prestashop) </br>- Mise en ligne d’opérations commerciales sur les sites e-commerce en direct ou via un prestataire Suivi de la tierce maintenance applicative (TMA) en collaboration avec notre prestataire (corrections, évolutions, mises à jour) </br>- Suivi et prise en charge des demandes entrantes des différents services, principalement Marketing, via un outil de ticketing interne </br>- Suivi et optimisations du SEO des différents sites",
+            type: "job" // study / job
+        },
+
+
         {
             yearStart: 2022,
             yearEnd: null,

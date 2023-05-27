@@ -25,7 +25,7 @@ function Services() {
         {
             img: conception,
             title: "Conception 3D",
-            description: "La conception 3D crée des modèles numériques tridimensionnels réalistes à l'aide de logiciels spécialisés. Elle est utilisée dans de nombreuses industries pour prototyper rapidement des idées avant la production.",
+            description: "La conception 3D permet aux artistes, designers, ingénieurs !et professionnels de créer des modèles virtuels réalistes qui peuvent être utilisés dans de nombreux domaines, tels que les jeux vidéo,l'architecture,la réalité virtuelle, la réalité augmentée",
             bgColor: "#FF4C60",
             color: "white"
         },
