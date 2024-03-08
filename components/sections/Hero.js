@@ -15,7 +15,7 @@ const defaultOptions = {
 
 
 function Hero() {
-    const backgroundImg = "url('https://media.discordapp.net/attachments/1008571105990160476/1095430863346466876/hitochix_Hacker_front_of_computer_red_room_ambiance_cybersecuri_224d8dd5-7846-4260-bc04-0c53e33755b3.png?width=2184&height=1248')";
+    const backgroundImg = "url('https://cdn.midjourney.com/b5744429-8ccd-4741-aac8-4df6766fca35/0_1.webp')";
     const style = {
         backgroundImage: backgroundImg,
         backgroundSize: 'cover',
