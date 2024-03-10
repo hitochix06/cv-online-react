@@ -53,7 +53,7 @@ function Experience() {
             yearEnd: "FEVRIER 2024",
             title: "Full-stack",
             organization: "TOPIZY",
-            description: "Assurer le suivi de maintenance du site web </br>Alimenter le contenu des site web (Prestashop) <br> Mise en place de middleware avec des outils no-code <br> Automatisation de tâches" ,
+            description: "Assurer le suivi de maintenance du site web </br>Alimenter le contenu des site web (Prestashop) <br> Mise en place de middleware avec des outils no-code <br> Automatisation de tâches",
             type: "job" // study / job
         },
 

@@ -48,15 +48,23 @@ function About() {
         const [width, setWidth] = useState(0);
         useEffect(() => {
             if (showSkills) {
-                setWidth(skill.lvl);
+                // Détermine la largeur de la barre de progression en fonction du nom de la compétence
+                let visualWidth;
+                if (skill.name === 'React / Next.js' || skill.name === 'PHP') {
+                    visualWidth = 40; // Pour React/Next.js et PHP, affiche visuellement 40%
+                } else if (skill.name === 'UX/UI Design') {
+                    visualWidth = 60; // Pour UX/UI Design, affiche visuellement 60%
+                } else {
+                    visualWidth = skill.lvl; // Pour les autres compétences, utilise la valeur de lvl
+                }
+                setWidth(visualWidth);
             }
-        }, [showSkills]);
-        // J'utilise le style inline pour changer la largeur de la barre de progression
+        }, [showSkills, skill.name, skill.lvl]);
         return (
             <div key={index}>
                 <div className="d-flex align-items-center justify-content-between mt-4 mt-md-1">
                     <strong>{skill.name}</strong>
-                    <span>{width}%</span>
+                    {/* Suppression de l'affichage du pourcentage ici */}
                 </div>
                 <div className={`${styles.progress} progress mt-3`} role="progressbar" aria-valuenow={width} aria-valuemin="0" aria-valuemax="100">
                     <div style={{ width: `${width}%`, backgroundColor: skill.bgColor }} className={styles.progressBar}></div>
