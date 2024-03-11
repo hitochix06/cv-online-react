@@ -19,6 +19,12 @@
   },
 
   {
+    "name": "Traincroyable",
+    "slug": "https://traincroyable.vercel.app//",
+    "illustration": "logotrain.jpg",
+    "categorie": "Application Web"
+  },
+  {
     "name": "jeu de geolocalisation",
     "slug": "https://hitochix06.github.io/jeuxgeolocalisation.github.io/",
     "illustration": "imagegeo.jpg",
@@ -40,12 +46,6 @@
   },
 
   {
-    "name": "Gestion produit boulanger",
-    "slug": "https://pphilibert-web.eu/GestionBoulangerie/index.php",
-    "illustration": "boulangerie-patisserie.jpg",
-    "categorie": "Application Web"
-  },
-  {
     "name": "Cv 3D",
     "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:5955c395-d173-4edd-a968-b4cc5a7359ba?view=dimension",
     "illustration": "cv3D.png",
@@ -53,15 +53,16 @@
   },
 
   {
+    "name": "Chambre3D",
+    "slug": "https://twinmotion.unrealengine.com/presentation/J47UPfSHQ16S_jHn",
+    "illustration": "chambre3D.png",
+    "categorie": "Conception 3D"
+  },
+
+  {
     "name": "Pokémon_Api",
     "slug": "https://pokedex-guide-api.vercel.app/",
     "illustration": "logo_pokem.jpg",
-    "categorie": "Api"
-  },
-  {
-    "name": "Search_jeux_Api",
-    "slug": "https://recherche-jeuxvideo-api.vercel.app/",
-    "illustration": "logo_jeuxvideo.jpg",
     "categorie": "Api"
   }
 ]
