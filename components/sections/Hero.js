@@ -26,7 +26,7 @@ function Hero() {
     const [text, setText] = useState(''); // état local pour stocker le texte animé
 
     useEffect(() => {
-        const yourText = "Développeur Web en recherche d'alternance !"; // texte à animer
+        const yourText = "Développeur Web"; // texte à animer
         let count = 0;
         // ajouter un caractère à chaque intervalle
         const interval = setInterval(() => {
