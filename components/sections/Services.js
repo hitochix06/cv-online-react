@@ -58,7 +58,7 @@ function Services() {
                     </div>
                 )}
             </div>
-            <p className="text-center mt-5">Vous cherchez votre prochain alternant Développeur Web ? <a href="mailto:pachara.philibert@hotmail.fr">Contactez-moi</a> 👋</p>
+            <p className="text-center mt-5">Vous cherchez votre prochain  Développeur Web ? <a href="mailto:pachara.philibert@hotmail.fr">Contactez-moi</a> 👋</p>
         </div>
     )
 }
