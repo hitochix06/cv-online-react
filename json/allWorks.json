@@ -32,9 +32,9 @@
   },
 
   {
-    "name": "Liste de courses",
-    "slug": "https://hitochix06.github.io/JeuxListcourse.github.io/",
-    "illustration": "liste-de-courses.jpg",
+    "name": "Génerateur de citation",
+    "slug": "https://generateur-citations-kappa.vercel.app/",
+    "illustration": "citationlogo.png",
     "categorie": "Application Web"
   },
 
