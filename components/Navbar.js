@@ -11,9 +11,9 @@ function Navbar() {
                 <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
                         <a className="nav-link ps-4" href="#about">A propos</a>
+                        <a className="nav-link ps-4" href="#works">Projets</a>
                         <a className="nav-link ps-4" href="#skills">Compétences</a>
                         <a className="nav-link ps-4" href="#experiences">Parcours</a>
-                        <a className="nav-link ps-4" href="#works">Projets</a>
                         <a className="nav-link ps-4" href="#contact">Contact</a>
                     </div>
                 </div>
