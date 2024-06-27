@@ -29,10 +29,16 @@
     "illustration": "logodavid.png",
     "categorie": "CMS"
   },
+  {
+    "name": "Dashboard_Link",
+    "slug": "https://dashboard-link.vercel.app/",
+    "illustration": "logodashboardlink.webp",
+    "categorie": "Application Web"
+  },
 
   {
     "name": "Traincroyable",
-    "slug": "https://traincroyable.vercel.app//",
+    "slug": "https://traincroyable.vercel.app/",
     "illustration": "logotrain.jpg",
     "categorie": "Application Web"
   },
