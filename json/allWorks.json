@@ -1,5 +1,11 @@
 [
   {
+    "name": "Spa de Léa",
+    "slug": "https://www.spadelea.com/",
+    "illustration": "logolea.png",
+    "categorie": "CMS"
+  },
+  {
     "name": "Association les cles du succes",
     "slug": "https://www.association-lesclesdusucces.com",
     "illustration": "logoclesucces.png",
@@ -25,14 +31,14 @@
     "categorie": "Application Web"
   },
   {
-    "name": "jeu de geolocalisation",
-    "slug": "https://hitochix06.github.io/jeuxgeolocalisation.github.io/",
-    "illustration": "imagegeo.jpg",
+    "name": "Quizbrain",
+    "slug": "https://quizbrain.vercel.app/",
+    "illustration": "Quizbrain.png",
     "categorie": "Application Web"
   },
 
   {
-    "name": "Génerateur de citation",
+    "name": "Génerateur de Citation",
     "slug": "https://generateur-citations-kappa.vercel.app/",
     "illustration": "citationlogo.png",
     "categorie": "Application Web"
@@ -57,12 +63,5 @@
     "slug": "https://twinmotion.unrealengine.com/presentation/J47UPfSHQ16S_jHn",
     "illustration": "chambre3D.png",
     "categorie": "Conception 3D"
-  },
-
-  {
-    "name": "Pokémon_Api",
-    "slug": "https://pokedex-guide-api.vercel.app/",
-    "illustration": "logo_pokem.jpg",
-    "categorie": "Api"
   }
 ]
