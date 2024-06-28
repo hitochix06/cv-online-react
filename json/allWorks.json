@@ -3,77 +3,83 @@
     "name": "Spa de Léa",
     "slug": "https://www.spadelea.com/",
     "illustration": "logolea.png",
-    "categorie": "CMS"
+    "categorie": "CMS",
+    "techno": "Ionos WebSite"
   },
   {
     "name": "Arlequin Gelati",
     "slug": "https://www.arlequingelati.com/",
     "illustration": "logoarlequin.png",
-    "categorie": "CMS"
+    "categorie": "CMS",
+    "techno": "Wix Studio"
   },
   {
     "name": "Association les cles du succes",
     "slug": "https://www.association-lesclesdusucces.com",
     "illustration": "logoclesucces.png",
-    "categorie": "CMS"
+    "categorie": "CMS",
+    "techno": "Ionos WebSite"
   },
   {
     "name": "Matthieu Hourteillan",
     "slug": "https://www.matthieuhourteillan.fr/?fbclid=IwAR1PM491C5Spj-6K6xG_JllY9rsIOmz_oBBKOlLuV7Wk7ijvLgiPSe0ZygA",
     "illustration": "cartemathieu.png",
-    "categorie": "CMS"
-  },
-  {
-    "name": "daedeliboes",
-    "slug": "https://www.daedeliboes.com/",
-    "illustration": "logodavid.png",
-    "categorie": "CMS"
+    "categorie": "CMS",
+    "techno": "Jimdo"
   },
   {
     "name": "Dashboard_Link",
     "slug": "https://dashboard-link.vercel.app/",
     "illustration": "logodashboardlink.webp",
-    "categorie": "Application Web"
+    "categorie": "Application Web",
+    "techno": "Vus.js/Airtable"
   },
 
   {
     "name": "Traincroyable",
     "slug": "https://traincroyable.vercel.app/",
     "illustration": "logotrain.jpg",
-    "categorie": "Application Web"
+    "categorie": "Application Web",
+    "techno": "MERN Stack"
   },
   {
     "name": "Quizbrain",
     "slug": "https://quizbrain.vercel.app/",
     "illustration": "Quizbrain.png",
-    "categorie": "Application Web"
+    "categorie": "Application Web",
+    "techno": "Nexjs/Airtable"
   },
 
   {
     "name": "Génerateur de Citation",
     "slug": "https://generateur-citations-kappa.vercel.app/",
     "illustration": "citationlogo.png",
-    "categorie": "Application Web"
+    "categorie": "Application Web",
+    "techno": "Vus.js/Express.js"
   },
 
   {
     "name": "Gestion de stock boisson",
     "slug": "https://pphilibert-web.eu/gestion_boisson_php/read.php",
     "illustration": "boisson.jpg",
-    "categorie": "Application Web"
+    "categorie": "Application Web",
+    "techno": "php/MySql/Bootstrap 5"
   },
 
   {
     "name": "Cv 3D",
     "slug": "https://assets.adobe.com/id/urn:aaid:sc:US:5955c395-d173-4edd-a968-b4cc5a7359ba?view=dimension",
     "illustration": "cv3D.png",
-    "categorie": "Conception 3D"
+    "categorie": "Conception 3D",
+    "techno": "Adobe Dimension"
+    
   },
 
   {
     "name": "Chambre3D",
     "slug": "https://twinmotion.unrealengine.com/presentation/J47UPfSHQ16S_jHn",
     "illustration": "chambre3D.png",
-    "categorie": "Conception 3D"
+    "categorie": "Conception 3D",
+    "techno": "Twinmotion"
   }
 ]

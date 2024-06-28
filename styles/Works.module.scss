@@ -50,3 +50,15 @@
   opacity: 0;
   transition: all 0.3s ease;
 }
+
+.technoAbsolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #1b537d;
+  color: white;
+  font-size: 0.8rem;
+
+  // Ajoutez ici les autres propriétés CSS nécessaires pour positionner votre élément
+}
