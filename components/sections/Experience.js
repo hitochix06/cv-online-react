@@ -5,10 +5,18 @@ import Titles from '../Titles'
 function Experience() {
 
     const experiences = [
+        {
+            yearStart: 2024,
+            yearEnd: null,
+            title: "Spécialisation Développement ",
+            organization: "Ynov Campus",
+            description: "Data & IA ,<br>Infrastructure & SI, Développement Game programming </br>Robotique & Systèmes embarqués </br>Cybersécurité",
+            type: "study" // study / job
+        },
 
         {
             yearStart: 2022,
-            yearEnd: null,
+            yearEnd: 2024,
             title: "Développeur web",
             organization: "Mediashool-bachelor",
             description: "SUPDEWEB l'école du digital et du développement web, en phase avec les besoins du marché, <br>recrute des passionnés, des étudiants qui le deviendront. <br> La culture web est pour   nous une évidence.<br>Les tendances du digital sont portées par nos étudiants, nos experts, nos intervenants, tous ancrés dans des agences, des start-up, des entreprises à la pointe de la transformation digitale",
