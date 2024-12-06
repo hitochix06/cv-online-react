@@ -1,0 +1,61 @@
+.navbar {
+    background: linear-gradient(90deg, 
+        rgba(248, 249, 250, 0.95) 0%,
+        rgba(240, 241, 245, 0.95) 100%
+    );
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease-in-out;
+
+    // Effet de profondeur avec une ombre subtile
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+
+    .navbar-brand, .nav-link {
+        background: linear-gradient(90deg, #007bff, #8a2be2);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            opacity: 0.8;
+            transform: translateY(-1px);
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            position: relative;
+            overflow: hidden;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background: linear-gradient(90deg, #007bff, #8a2be2);
+                visibility: hidden;
+                transform: scaleX(0);
+                transition: all 0.3s ease-in-out;
+            }
+
+            &:hover:before {
+                visibility: visible;
+                transform: scaleX(1);
+            }
+        }
+    }
+
+    transform: translateY(0);
+}
+
+.visible {
+    transform: translateY(0);
+}
+
+.hidden {
+    transform: translateY(-100%);
+}

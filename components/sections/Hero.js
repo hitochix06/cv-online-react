@@ -15,35 +15,49 @@ const defaultOptions = {
 
 
 function Hero() {
-    const backgroundImg = "url('https://cdn.midjourney.com/b5744429-8ccd-4741-aac8-4df6766fca35/0_1.webp')";
     const style = {
-        backgroundImage: backgroundImg,
+        backgroundImage: "url('https://cdn.midjourney.com/b5744429-8ccd-4741-aac8-4df6766fca35/0_1.webp')",
         backgroundSize: 'cover',
-        // backgroundPosition: 'center',
-        // backgroundBlendMode: 'overlay',
+        backgroundPosition: 'center',
     };
 
-    const [text, setText] = useState(''); // état local pour stocker le texte animé
+    const [text, setText] = useState('');
 
     useEffect(() => {
-        const yourText = "Développeur Web"; // texte à animer
-        let count = 0;
-        // ajouter un caractère à chaque intervalle
-        const interval = setInterval(() => {
-            setText(yourText.slice(0, count));
-            count++;
-        }, 100);
-        // nettoyer l'interval
-        return () => clearInterval(interval);
+        const phrases = ["Développeur Web", "Frontend Developer", "React Expert"];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        const type = () => {
+            const currentPhrase = phrases[phraseIndex];
+
+            if (isDeleting) {
+                setText(currentPhrase.substring(0, charIndex - 1));
+                charIndex--;
+            } else {
+                setText(currentPhrase.substring(0, charIndex + 1));
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                setTimeout(() => isDeleting = true, 1500);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+            }
+
+            const typingSpeed = isDeleting ? 50 : 150;
+            setTimeout(type, typingSpeed);
+        };
+
+        type();
     }, []);
 
-
     return (
-
-        <div style={style} className="vh-100 bg-dark d-flex align-items-center justify-content-center">
-            <div className="text-white text-center">
-                {/* <Image src={Avatar} width={110} height={110} className='rounded-circle object-fit-cover' /> */}
-                <h1 className="mt-4">Pachara Philibert</h1>
+        <div style={style} className={`${styles.heroContainer} vh-100 bg-dark d-flex align-items-center justify-content-center`}>
+            <div className={`${styles.content} text-white text-center`}>
+                <h1 className={`${styles.title} mt-4`}>Pachara Philibert</h1>
                 <div className={styles.animatedParagraph}>
                     <h5>{text}</h5>
                     <q>l'imagination est plus importante que le savoir</q><br></br>
