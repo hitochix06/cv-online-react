@@ -1,27 +1,19 @@
 .progress {
-    height: 8px;
+    height: 7px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .progressBar {
+    transition: width 1s ease-in-out;
     height: 100%;
+    border-radius: 10px;
 }
 
-.dialog::before {
-    content:"";
-    position: absolute;
-    transform: translateX(-100%);
-    top: 50px;
-    left: 0;
-    width:0;
-    height:0;
-    border-top : 12px solid transparent;
-    border-right : 18px solid white;
-    border-bottom : 12px solid transparent;
-    display: inline-block;
+.dialog {
+    &:hover {
+        transform: translateY(-5px);
+        transition: transform 0.3s ease;
+    }
 }
-
-.progressBar {
-    height: 10px;
-    border-radius: 5px;
-    transition: width 4s ease-in-out;// 1s temps de transition
-  }
